@@ -4,10 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { SimpleAction } from './components/simple-action'
 import { ActionState } from './components/actionState'
-
+import { startTransition } from 'react'
 function App() {
   const [count, setCount] = useState(0)
-
+  startTransition()
   return (
     <>
     <ActionState />

@@ -8,10 +8,10 @@
 ## client action
 
 
-- [1]useTransition
-- [2]react form action
-- [3]react useActionState
-- [4]startTransition
+- [1]useTransition (过渡 action 函数)
+- [2]react form action （表单 action 函数）
+- [3]react useActionState （表单 action + 状态函数）
+- [4]startTransition （过渡 action）
 
 formAction 指向 submitAction， 中调用 startTransition，isPending
 
