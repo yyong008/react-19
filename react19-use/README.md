@@ -8,9 +8,16 @@
     - 错误处理：错误边界 + Suspense
 - 错误了如何处理： try-catch
 
+## 调用访问
+
+- 组件内部
+- hooks 内部
+- if/for循环语句
+- 客户端组件中使用
+
 ## 应用
 
-- context 的应用
+- context 的应用，优先级更佳灵活
 - 异步 promise 
 
 

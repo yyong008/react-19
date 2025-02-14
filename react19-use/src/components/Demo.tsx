@@ -1,7 +1,6 @@
 "use client";
 
-import { Suspense, use } from "react";
-import { ErrorBoundary } from "react-error-boundary";
+import { use } from "react";
 
 export default function Demo({ prms }: { prms: Promise<any> }) {
   const a = use(prms);
